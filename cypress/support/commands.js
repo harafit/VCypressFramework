@@ -26,3 +26,7 @@
 
 
 ///<reference types = "Cypress"/>
+import 'cypress-iframe';
+
+require('@4tw/cypress-drag-drop')
+
