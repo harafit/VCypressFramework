@@ -2,7 +2,7 @@ describe('template spec1', function() {
   it('Pass1', function() {
     cy.visit('https://example.cypress.io')
 
-    cy.title().should('eq','Cypress.io: Kitchen Sink')
+    cy.title().should('eq','Cypress.io: Kitchen Sin')
   })
 
   it('Pass1', function() {
