@@ -1,11 +1,14 @@
 const { defineConfig } = require("cypress");
+const {downloadFile} = require('cypress-downloadfile/lib/addPlugin');
+
 
 module.exports = defineConfig({
 
   watchForFileChanges:false,
   e2e: {
     setupNodeEvents(on, config) {
-      screenshotOnRunFailure=true
+      on('task', {downloadFile})
+      screenshotOnRunFailure:true
       // implement node event listeners here
     },
   },

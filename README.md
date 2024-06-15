@@ -389,6 +389,31 @@ https://www.npmjs.com/package/cypress-mochawesome-reporter
 
 
 
+Toast Messages 
+--------------
+https://primeng.org/toast
+
+
+
+Handle Error which is not from Cypress - It is from application
+---------------------------------------------------------------
+https://www.ebay.com/
+
+
+How to use viewport - in Cypress
+--------------------------------
+
+
+How to Upload the file in Cypress
+---------------------------------
+https://the-internet.herokuapp.com/upload
+
+
+How to Download the file in Cypress
+-----------------------------------
+
+How to use viewport - in Cypress
+--------------------------------
 
 
 
