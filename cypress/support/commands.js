@@ -35,3 +35,14 @@ import 'cypress-file-upload';
 
 
 require('cypress-downloadfile/lib/downloadFileCommand')
+
+
+
+Cypress.Commands.add('Login',(username, password)=>{
+
+    cy.get('input[placeholder="Username"]').type(username)
+    cy.get('input[placeholder="Password"]').type(password)
+    cy.get('button[type="submit"]').click()
+    cy.get('img[alt="client brand banner"]').should('be.visible')
+
+})

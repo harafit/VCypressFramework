@@ -412,14 +412,57 @@ https://the-internet.herokuapp.com/upload
 How to Download the file in Cypress
 -----------------------------------
 
-How to use viewport - in Cypress
---------------------------------
+
+How to use Fixture in Cypress 
+-----------------------------
 
 
+How to create custom Commands in cypress
+----------------------------------------
+
+- Navigating to https://opensource-demo.orangehrmlive.com/
+- Entering username
+- Entering password
+- Clicking on Login button
+- Clicking on logout
+
+TC1 
+- Login()
+- Dashboard()
+- Logout()
+
+TC2 
+- Login()
+- CreatingEmployee()
+- Logout()
+
+TC3
+- Login()
+- DeletingEmployee()
+- Logout()
 
 
+What is PageObjectModel (POM)
 
+Core Benefit 
+- Code Reuse
+- Code Reliablity
+- Code Read
+- Code Main
 
+3 Files --
+1. Actual Test Cases
+2. Web Element File 
+3. Actions 
+
+LoginPageTC
+LogingPageWebElement
+LoginPageAction
+
+Create Below TCs - 
+1. Login - 
+2. ForgotPassword
+3. Search for Admin - Count the number of Rows - Validate using assertion for the count - It should match 
 
 
 
