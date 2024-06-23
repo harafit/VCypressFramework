@@ -34,16 +34,16 @@ describe('Responsive Design', function() {
   
       })
 
-      it('Responsive Design - macbook-16', function() {
+      it('Responsive Design - Custom Resolution', function() {
       
         cy.viewport(550, 750)
         
         cy.wait(5000)
         cy.get('basic-doc > .card > p-button.p-element > .p-ripple').click()
     
-        cy.get('.p-toast-summary').contains('Success')
+        cy.get('.p-toast-summary').contains('Unsuccess')
   
-        cy.get('.p-toast-detail').contains('Message Content')
+        cy.get('.p-toast-detail').contains('Message Content') 
   
       })
   

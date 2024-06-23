@@ -4,6 +4,7 @@ const {downloadFile} = require('cypress-downloadfile/lib/addPlugin');
 
 module.exports = defineConfig({
 
+  projectId: "bdbdxi",
   watchForFileChanges:false,
   e2e: {
     setupNodeEvents(on, config) {
