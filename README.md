@@ -465,6 +465,73 @@ Create Below TCs -
 3. Search for Admin - Count the number of Rows - Validate using assertion for the count - It should match 
 
 
+Cypress Cloud - Cypress Dashboard
+---------------------------------
+
+
+npx cypress run --spec 'path of spec file'
+
+Cloud - 
+
+npx cypress run --record --key b484d95c-028f-4e69-8dad-2658699051fa
+
+
+API Testing
+-----------
+
+
+Application Programming Interface - Testing - 
+
+GET - To get the information.
+
+POST - To create a new record. 
+
+PUT - To update the existing record.
+
+PATCH - To update single entity.
+
+{
+	"name":"abc"
+	"email":
+	"salary":
+
+}
+
+DELETE - To delete the record.
+
+Client --------- Server 
+
+URL --> Server --> Server will acknowlege --> Server will provide response --> UI will get loaded 
+
+Flipkart --> Ecommerce --> BillDesk (APIs)
+
+EndPoint - 
+https://mapi.makemytrip.com/empeiria/api/v2/pwaflight?brand=mmt&profile=b2c&device=pwa&version=6.0&region=in&language=eng&currency=inr
+
+Method Type - 
+POST
+
+Request Payload - JSON
+
+Query Parameter - brand=mmt&profile=b2c&device=pwa&version=6.0&region=in&language=eng&currency=inr
+
+{"user":{"deviceInfo":{"trafficSource":{"referringDomain":"https://www.google.com/"}}},"containerType":"FLIGHT"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
