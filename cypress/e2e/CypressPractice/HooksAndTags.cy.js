@@ -8,7 +8,7 @@ describe('TestSuites',()=>{
     })
 
     
-    before(order = 1, ()=>{
+    before(()=>{
 
         cy.log('I am in Before 1')
 

@@ -20,8 +20,6 @@ describe('Demo for Reading Data From Fixture Before',function(){
             cy.get('input[placeholder="Username"]').type(testdatademo.username)
             cy.get('input[placeholder="Password"]').type(testdatademo.password)
             cy.get('button[type="submit"]').click()
-
-
             cy.get('img[alt="client brand banner"]').should('be.visible')
             
     })

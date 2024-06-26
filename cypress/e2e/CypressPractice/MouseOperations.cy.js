@@ -66,7 +66,6 @@ describe('Mouse Operations', ()=>{
 
     })
 
-
     it.only('Scrolling ', ()=>{
 
         cy.visit("https://scroll.in/tag/Swiggy")

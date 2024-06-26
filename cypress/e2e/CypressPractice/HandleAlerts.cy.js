@@ -32,7 +32,6 @@ describe('Handle Alerts' ,()=>{
         
     })
 
-
     it('Java Script Alerts By Clicking on Cancel', ()=>{
         cy.visit('http://the-internet.herokuapp.com/javascript_alerts')
         cy.get("button[onclick='jsConfirm()']").click()

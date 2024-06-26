@@ -518,6 +518,12 @@ Query Parameter - brand=mmt&profile=b2c&device=pwa&version=6.0&region=in&languag
 {"user":{"deviceInfo":{"trafficSource":{"referringDomain":"https://www.google.com/"}}},"containerType":"FLIGHT"}
 
 
+POST - CREATE A RECORD
+GET - GET A RECORD WHATEVER IS CREATED
+PUT - UPDATE SAME RECORD
+GET - TO CHECK WHAT IS UPDATED
+DELETE - TO DELET A RECORD
+GET - TO CHECK WEATHER RECORD IS DELETED SUCCESSFULLY
 
 
 
